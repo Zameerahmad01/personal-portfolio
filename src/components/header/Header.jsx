@@ -50,7 +50,7 @@ function Header() {
                     spy={true} 
                     smooth={true} 
                     offset={-100} 
-                    duration={500}  
+                    duration={100}  
                     className='nav__link'
                     key={index}
                     >

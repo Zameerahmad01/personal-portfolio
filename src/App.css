@@ -201,3 +201,9 @@ img {
     margin-right: var(--mb-1);
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+}
