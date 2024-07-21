@@ -2,9 +2,9 @@
     padding-top: 3rem;
 }
 
-.section__subtitle{
+/* .section__subtitle{
     margin-bottom: 2rem;
-}
+} */
 
 .skills__container{
     grid-template-columns: 1fr;
