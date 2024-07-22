@@ -18,9 +18,15 @@ const navLinks = [
       display: "Skills",
       icon: "file-alt"
     },
+
+    {
+      to: "services",
+      display: "Services",
+      icon: "file-alt"
+    },
   
     {
-      to: "portfolio",
+      to: "works",
       display: "Portfolio",
       icon: "scenery"
     },
@@ -37,11 +43,11 @@ function Header() {
 
   return (
     <header className='header'>
-      <nav className='nav container'>
-        <Link to='/' className='nav__logo'>Zameer</Link>
+      <nav className='nav container '>
+        <Link to='home' className='nav__logo'>Zameer</Link>
 
         <div className={Toggle ? "nav__menu show_menu" : "nav__menu"}>
-            <ul className='nav__list grid'>
+            <ul className='nav__list '>
                 {navLinks.map((items, index) => (
                     <li className='nav_item'>
                     <Link 

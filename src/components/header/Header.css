@@ -1,10 +1,12 @@
 .header{
     width: 100vw;
     position: fixed;
+    padding: 0 6rem;
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--body-color);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
 }
 
 nav {
@@ -50,10 +52,18 @@ nav {
     color: var(--title-color-dark);
 }
 
+@media screen and (max-width: 992px) {
+    .header{
+        padding: 0 4rem;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .header{
       top: initial;
       bottom: 0;
+      padding: 0 2rem;
     }
   
     .nav {
@@ -65,7 +75,7 @@ nav {
   
     .nav__menu{
         position: fixed;
-        bottom: -100%;
+        bottom: -30rem;
         left: 0;
         width: 100%;
         background-color: var(--body-color);
@@ -91,8 +101,8 @@ nav {
 
     .nav__close{
         position: absolute;
-        right: 1.3rem;
-        bottom: .5rem;
+        right: 1.8rem;
+        bottom: 1.5rem;
         font-size: 1.5rem;
         cursor: pointer;
         color: var(--title-color);

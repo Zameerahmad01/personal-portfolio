@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function FrontEnd() {
   return (
-    <div className='skills__content grid'>
+    <div className='skills__content cont-grid'>
       <div className="skills__title">Front Developer</div>
 
       <div className="skills__box grid">

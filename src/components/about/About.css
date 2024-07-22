@@ -50,13 +50,10 @@
 /* For large devices */
 @media screen and (max-width: 992px) {
 
-    .section{
-        padding-left: 0;
-    }
+    
    .about__container{
     grid-template-columns: 1fr;
     row-gap: 2.5rem;
-    padding-right: 0;
    }
 
    .about__img{

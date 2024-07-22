@@ -1,5 +1,9 @@
 import React from 'react'
 import './Home.css'
+import { FlipWords } from '../ui/FlipWords';
+
+
+const words = ["better", "cute", "beautiful", "modern"];
 
 function Data() {
   return (
@@ -9,7 +13,7 @@ function Data() {
       </h1>
 
       <h3 className="home__subtitle">Web Developer</h3>
-      <p className="home__description">I'm creative designer based in New York, and I'm very passionate and dedicated to my work.</p>
+      <p className="home__description">I'm creative designer based in Pakistan,<br /> Build <FlipWords words={words} /> Website with me.</p>
 
       <a href="#contact" className='button button--flex'>
         Say Hello 
