@@ -68,8 +68,8 @@ function Work() {
               {item.desc}
             </p>
             <div className="works__content-bottom">
-              <a href={item.link} className='works__content-button button button--flex'>
-                Explore Site !
+              <a href={item.link} target='_blank' className='works__content-button button button--flex'>
+                Visit Site
               </a>
             </div>
             
