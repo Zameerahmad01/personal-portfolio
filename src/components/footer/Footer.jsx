@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <section className="footer">
-      <div className="footer__container container grid">
+      <div className="footer__container  grid">
         <h3 className="footer__title">Zameer</h3>
 
         <div className="footer__social">

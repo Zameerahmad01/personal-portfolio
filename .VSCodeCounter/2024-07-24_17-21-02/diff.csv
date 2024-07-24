@@ -1,0 +1,18 @@
+"filename", "language", "JavaScript", "CSS", "JavaScript JSX", "XML", "comment", "blank", "total"
+"d:\New folder (7)\personal-portfolio\src\App.css", "CSS", 0, 161, 0, 0, 20, 36, 217
+"d:\New folder (7)\personal-portfolio\src\App.jsx", "JavaScript JSX", 0, 0, 28, 0, 0, 6, 34
+"d:\New folder (7)\personal-portfolio\src\assets\files.svg", "XML", 0, 0, 0, 25, 0, 0, 25
+"d:\New folder (7)\personal-portfolio\src\assets\hand.svg", "XML", 0, 0, 0, 49, 0, 0, 49
+"d:\New folder (7)\personal-portfolio\src\assets\scroll.svg", "XML", 0, 0, 0, 35, 0, 0, 35
+"d:\New folder (7)\personal-portfolio\src\assets\send.svg", "XML", 0, 0, 0, 17, 0, 0, 17
+"d:\New folder (7)\personal-portfolio\src\components\Skills\Skills.css", "CSS", 0, 8, 0, 0, 1, 2, 11
+"d:\New folder (7)\personal-portfolio\src\components\contact\Contact.css", "CSS", 0, 124, 0, 0, 3, 29, 156
+"d:\New folder (7)\personal-portfolio\src\components\contact\Contact.jsx", "JavaScript JSX", 0, 0, 121, 0, 0, 20, 141
+"d:\New folder (7)\personal-portfolio\src\components\footer\Footer.css", "CSS", 0, 30, 0, 0, 3, 11, 44
+"d:\New folder (7)\personal-portfolio\src\components\footer\Footer.jsx", "JavaScript JSX", 0, 0, 36, 0, 0, 7, 43
+"d:\New folder (7)\personal-portfolio\src\components\home\Home.css", "CSS", 0, 0, 0, 0, 0, 2, 2
+"d:\New folder (7)\personal-portfolio\src\components\services\Services.css", "CSS", 0, 3, 0, 0, 0, 1, 4
+"d:\New folder (7)\personal-portfolio\src\index.css", "CSS", 0, 9, 0, 0, 0, 1, 10
+"d:\New folder (7)\personal-portfolio\src\main.jsx", "JavaScript JSX", 0, 0, 12, 0, 0, 2, 14
+"d:\New folder (7)\personal-portfolio\src\utils\cn.js", "JavaScript", 5, 0, 0, 0, 0, 2, 7
+"Total", "-", 5, 335, 197, 126, 27, 119, 809

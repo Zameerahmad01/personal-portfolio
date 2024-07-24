@@ -1,0 +1,52 @@
+Date : 2024-07-24 17:21:02
+Directory : d:\New folder (7)\personal-portfolio\src
+Total : 16 files,  663 codes, 27 comments, 119 blanks, all 809 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| CSS            |          7 |        335 |         27 |         82 |        444 |
+| JavaScript JSX |          4 |        197 |          0 |         35 |        232 |
+| XML            |          4 |        126 |          0 |          0 |        126 |
+| JavaScript     |          1 |          5 |          0 |          2 |          7 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                      | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                         |         16 |        663 |         27 |        119 |        809 |
+| . (Files)                                                                 |          4 |        210 |         20 |         45 |        275 |
+| assets                                                                    |          4 |        126 |          0 |          0 |        126 |
+| components                                                                |          7 |        322 |          7 |         72 |        401 |
+| components\Skills                                                         |          1 |          8 |          1 |          2 |         11 |
+| components\contact                                                        |          2 |        245 |          3 |         49 |        297 |
+| components\footer                                                         |          2 |         66 |          3 |         18 |         87 |
+| components\home                                                           |          1 |          0 |          0 |          2 |          2 |
+| components\services                                                       |          1 |          3 |          0 |          1 |          4 |
+| utils                                                                     |          1 |          5 |          0 |          2 |          7 |
++---------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                                  | language       | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
+| d:\New folder (7)\personal-portfolio\src\App.css                          | CSS            |        161 |         20 |         36 |        217 |
+| d:\New folder (7)\personal-portfolio\src\App.jsx                          | JavaScript JSX |         28 |          0 |          6 |         34 |
+| d:\New folder (7)\personal-portfolio\src\assets\files.svg                 | XML            |         25 |          0 |          0 |         25 |
+| d:\New folder (7)\personal-portfolio\src\assets\hand.svg                  | XML            |         49 |          0 |          0 |         49 |
+| d:\New folder (7)\personal-portfolio\src\assets\scroll.svg                | XML            |         35 |          0 |          0 |         35 |
+| d:\New folder (7)\personal-portfolio\src\assets\send.svg                  | XML            |         17 |          0 |          0 |         17 |
+| d:\New folder (7)\personal-portfolio\src\components\Skills\Skills.css     | CSS            |          8 |          1 |          2 |         11 |
+| d:\New folder (7)\personal-portfolio\src\components\contact\Contact.css   | CSS            |        124 |          3 |         29 |        156 |
+| d:\New folder (7)\personal-portfolio\src\components\contact\Contact.jsx   | JavaScript JSX |        121 |          0 |         20 |        141 |
+| d:\New folder (7)\personal-portfolio\src\components\footer\Footer.css     | CSS            |         30 |          3 |         11 |         44 |
+| d:\New folder (7)\personal-portfolio\src\components\footer\Footer.jsx     | JavaScript JSX |         36 |          0 |          7 |         43 |
+| d:\New folder (7)\personal-portfolio\src\components\home\Home.css         | CSS            |          0 |          0 |          2 |          2 |
+| d:\New folder (7)\personal-portfolio\src\components\services\Services.css | CSS            |          3 |          0 |          1 |          4 |
+| d:\New folder (7)\personal-portfolio\src\index.css                        | CSS            |          9 |          0 |          1 |         10 |
+| d:\New folder (7)\personal-portfolio\src\main.jsx                         | JavaScript JSX |         12 |          0 |          2 |         14 |
+| d:\New folder (7)\personal-portfolio\src\utils\cn.js                      | JavaScript     |          5 |          0 |          2 |          7 |
+| Total                                                                     |                |        663 |         27 |        119 |        809 |
++---------------------------------------------------------------------------+----------------+------------+------------+------------+------------+
