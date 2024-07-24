@@ -74,7 +74,9 @@ html {
   scroll-behavior: smooth;
 }
 
-#root{width: 100%;}
+#root {
+  width: 100%;
+}
 
 body,
 button,
@@ -117,7 +119,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 4rem 6rem ;
+  padding: 4rem 6rem;
 }
 
 .section__title {
@@ -175,7 +177,7 @@ img {
 /* For large devices */
 @media screen and (max-width: 992px) {
   .section {
-    padding: 2rem 0rem ;
+    padding: 2rem 0rem;
   }
 
   .container {
@@ -184,7 +186,6 @@ img {
     /* margin-left: var(--mb-1); */
     /* margin-right: var(--mb-1); */
   }
-
 
   .button {
     padding: 1rem 1.75rem;
@@ -196,6 +197,11 @@ img {
   }
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+}
 
 /* For small devices */
 @media screen and (max-width: 350px) {
@@ -206,11 +212,5 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    margin: 0 0 var(--header-height) 0;
   }
 }

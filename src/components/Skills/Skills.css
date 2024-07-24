@@ -58,3 +58,14 @@
 .skills__name{
     line-height: 18px;
 }
+
+  /* For small devices */
+  @media screen and (max-width: 576px) {
+  .skills__container{
+    grid-template-columns: 1fr;
+  }
+  .skills__box{
+    grid-template-columns: 1fr;
+
+}
+}
