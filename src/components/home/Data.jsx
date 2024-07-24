@@ -16,7 +16,7 @@ function Data() {
       <p className="home__description">I'm creative designer based in Pakistan,<br /> Build <FlipWords words={words} /> Website with me.</p>
 
       <a href="#contact" className='button button--flex'>
-        Say Hello 
+        Lets Talk 
         <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
