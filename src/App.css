@@ -162,6 +162,7 @@ img {
   border-radius: 1rem;
   font-weight: var(--font-medium);
   transition: .3s ease-in-out;
+  cursor: pointer;
 }
 
 .button:hover {
