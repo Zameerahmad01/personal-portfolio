@@ -18,7 +18,8 @@ function About() {
 
             <p className='about__description'>Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.</p>
 
-            <a download="" href={Cv} className='button button--flex'>Download CV
+            <button className='abt-button'>
+               <a download="" href={Cv} className='abt-button-content'>Download CV
             <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -45,6 +46,8 @@ function About() {
                 ></path>
             </svg>
             </a>
+            </button>
+           
         </div>
       </div>
     </section>

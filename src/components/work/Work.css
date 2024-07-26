@@ -7,8 +7,8 @@
 
 .works__content-box{
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
-    padding: 1.5rem 1rem;
+    border-radius: .75rem;
+    padding: 1rem 1rem;
     transition: all .3s ease-in-out;
     background-color: var(--container-color);
 }

@@ -1,19 +1,20 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --title-color: #fff;
+  --title-color-dark: #29a385;
+  --text-color: 	#ebebeb;
+  --body-color: hsl(216, 18%, 16%);
+  --container-color: hsl(217, 18%, 14%);
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
@@ -88,7 +89,7 @@ textarea {
 
 body {
   background-color: var(--body-color);
-  color: var(--text-color);
+  color: var(--title-color);
 }
 
 h1,
@@ -158,6 +159,7 @@ img {
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
+  transition: .3s ease-in-out;
 }
 
 .button:hover {

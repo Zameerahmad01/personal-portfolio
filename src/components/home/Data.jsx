@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import { FlipWords } from '../ui/FlipWords';
+import { Link } from 'react-scroll';
 
 
 const words = ["better", "cute", "beautiful", "modern"];
@@ -8,14 +9,15 @@ const words = ["better", "cute", "beautiful", "modern"];
 function Data() {
   return (
     <div className='home__data'>
-      <h1 className="home__title">Zameer Ahmad
-         
+      <h1 className="home__title">
+        <span>Zameer</span>
+        Ahmad 
       </h1>
 
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">I'm creative designer based in Pakistan,<br /> Build <FlipWords words={words} /> Website with me.</p>
 
-      <a href="#contact" className='button button--flex'>
+      <Link to="contact" className='button button--flex'>
         Lets Talk 
         <svg
                   class="button__icon"
@@ -34,7 +36,7 @@ function Data() {
                     fill="var(--container-color)"
                   ></path>
         </svg>
-      </a>
+      </Link>
 
     </div>
   )

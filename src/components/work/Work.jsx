@@ -59,7 +59,7 @@ function Work() {
        
           <div className=".works__content">
             <div className="works__content-img"> 
-              <img src={item.img} alt="" className='rounded-lg' />
+              <img src={item.img} alt="" className='rounded-md' />
             </div>
             <h3 className="works__content-title">
               {item.title}
