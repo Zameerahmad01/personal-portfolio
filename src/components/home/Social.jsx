@@ -9,6 +9,7 @@ function Social() {
           href="https://www.linkedin.com/in/zameer-ahmad-55b2aa302/"
           aria-label="LinkedIn"
           data-social="linkedin"
+          target='_blank'
         >
           <div class="filled"></div>
           <svg
@@ -33,6 +34,7 @@ function Social() {
           href="https://github.com/Zameerahmad01"
           aria-label="GitHub"
           data-social="github"
+          target='_blank'
         >
           <div class="filled"></div>
           <svg
@@ -57,6 +59,7 @@ function Social() {
           href="https://www.instagram.com/zameer_bodla/"
           aria-label="Instagram"
           data-social="instagram"
+          target='_blank'
         >
           <div class="filled"></div>
           <svg
