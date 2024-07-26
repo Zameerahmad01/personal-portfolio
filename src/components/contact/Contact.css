@@ -128,12 +128,12 @@
     justify-content: center;
     position: relative;
     transition: all 0.3s ease;
-    min-width: 180px;
-    padding: 16px;
+    min-width: 160px;
+    padding: 14px;
     height: 60px;
     font-family: "Galano Grotesque", Poppins, Montserrat, sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--title-color-dark);
   }

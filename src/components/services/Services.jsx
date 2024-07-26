@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Services.css'
+import shape2 from '../../assets/shape-2.png'
 
 const design=[
 "I develop the user interface.",
@@ -32,6 +33,8 @@ function Services() {
                 View More 
                 <i className='uil uil-arrow-right services__button-icon'></i>
             </span>
+
+            <img src={shape2} alt="" className='shape services-shape-2' />
 
             <div className={ToggleState === 1 ? "services__modal active_modal" : "services__modal"}>
                 <div className="services__modal-content">
@@ -71,6 +74,8 @@ function Services() {
                 <i className='uil uil-arrow-right services__button-icon'></i>
             </span>
 
+            <img src={shape2} alt="" className='shape services-shape-2' />
+
             <div className={ToggleState === 2 ? "services__modal active_modal" : "services__modal"}>
                 <div className="services__modal-content">
                     <i className='uil uil-times services__modal-close'
@@ -94,6 +99,8 @@ function Services() {
                         ))}
                        
                     </ul>
+
+
                 </div>
             </div>
         </div>
@@ -109,6 +116,8 @@ function Services() {
                 View More 
                 <i className='uil uil-arrow-right services__button-icon'></i>
             </span>
+
+            <img src={shape2} alt="" className='shape services-shape-2' />
 
             <div className={ToggleState === 3 ? "services__modal active_modal" : "services__modal"}>
                 <div className="services__modal-content">

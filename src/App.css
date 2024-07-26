@@ -126,12 +126,14 @@ img {
 .section__title {
   font-size: var(--h1-font-size);
   color: var(--title-color);
+  /* font-family: caveat; */
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  font-family: 'caveat', 'poppins';
 }
 
 .section__title,
@@ -155,7 +157,7 @@ img {
 .button {
   display: inline-block;
   background-color: var(--title-color);
-  color: var(--container-color);
+  color: var(--title-color-dark);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
@@ -164,6 +166,7 @@ img {
 
 .button:hover {
   background-color: var(--title-color-dark);
+  color: var(--title-color);
 }
 
 .button__icon {

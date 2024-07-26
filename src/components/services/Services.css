@@ -46,6 +46,14 @@
     transform: translateX(.25rem);
 }
 
+.services-shape-2{
+    width: 80px;
+    height: 80px;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 1;
+}
+
 .services__modal{
     position: fixed;
     top: 0;
