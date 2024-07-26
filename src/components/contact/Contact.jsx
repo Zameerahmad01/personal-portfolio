@@ -37,7 +37,7 @@ function Contact() {
 
               <a
                 target="_blank"
-                href="mailto:zameerahmad4877@gmail.com.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=zameerahmad4877@gmail.com"
                 className="contact__info-button"
               >
                 write me
