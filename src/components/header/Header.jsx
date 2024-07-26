@@ -49,16 +49,17 @@ function Header() {
         <div className={Toggle ? "nav__menu show_menu" : "nav__menu"}>
             <ul className='nav__list '>
                 {navLinks.map((items, index) => (
-                    <li className='nav_item'>
+                    <li
+                    key={index}
+                     className='nav_item'>
                     <Link 
                     activeClass='active' 
                     to={items.to} 
                     spy={true} 
                     smooth={true} 
-                    offset={-100} 
+                    offset={-60} 
                     duration={100}  
                     className='nav__link'
-                    key={index}
                     >
 
                     <i className={`uil uil-${items.icon} nav__icon`}></i>

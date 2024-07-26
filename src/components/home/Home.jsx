@@ -7,10 +7,7 @@ import { Spotlight } from '../ui/SpotLight'
 function Home() {
   return (
     <section className="Home section relative" id="home">
-      <Spotlight
-        className="-top-40 left-0 md:left-60 md:-top-20"
-        fill="white"
-      />
+     
         <div className="home__container container grid">
             <div className="home__content grid">
                 <Social />
@@ -22,6 +19,11 @@ function Home() {
 
             <Scroll />
         </div>
+
+        <Spotlight
+        className="-top-40 left-0 md:left-60 md:-top-20"
+        fill="white"
+      />
     </section>
   )
 }
