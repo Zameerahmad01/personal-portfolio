@@ -1,48 +1,37 @@
 import React from 'react'
 import './Work.css'
-import p1 from '../../assets/work1.jpg'
-import p2 from '../../assets/work2.jpg'
-import p3 from '../../assets/work3.jpg'
-import p4 from '../../assets/work4.jpg'
-import p5 from '../../assets/work5.jpg'
+import p1 from '../../assets/work1.png'
+import p2 from '../../assets/work2.png'
+import p3 from '../../assets/work3.png'
+import p4 from '../../assets/works4.png'
+// import p5 from '../../assets/work5.jpg'
 
 const projects=[
   {
     title: "portfolio",
-    desc: "Aceternity UI is a React based UI library for Aceternity Blockchain.",
+    desc: "Build with : React js",
     img: p1,
-    link: "www.portfolio.com"
+    link: "https://portfolio-fwebzbv82-zameerahmad01s-projects.vercel.app/"
   },
   {
-    title: "portfolio",
-    desc: "Aceternity UI is a React based UI library for Aceternity Blockchain.",
+    title: "Ev elution",
+    desc: "Build with : React js",
     img: p2,
-    link: "www.portfolio.com"
+    link: "https://ev-olution-two.vercel.app/"
   },
   {
-    title: "portfolio",
-    desc: "Aceternity UI is a React based UI library for Aceternity Blockchain.",
+    title: "Tik Tac Toe",
+    desc: "Build with : React js",
     img: p3,
-    link: "www.portfolio.com"
+    link: "https://tic-tac-toe-kohl-eight.vercel.app/"
   },
   {
-    title: "portfolio",
-    desc: "Aceternity UI is a React based UI library for Aceternity Blockchain.",
+    title: "Docs",
+    desc: "Build with : React js",
     img: p4,
-    link: "www.portfolio.com"
+    link: "https://docs-three-blush.vercel.app/"
   },
-  {
-    title: "portfolio",
-    desc: "Aceternity UI is a React based UI library for Aceternity Blockchain.",
-    img: p5,
-    link: "www.portfolio.com"
-  },
-  {
-    title: "portfolio",
-    desc: "Aceternity UI is a React based UI library for Aceternity Blockchain.",
-    img: p1,
-    link: "www.portfolio.com"
-  }
+  
 ]
 
 
