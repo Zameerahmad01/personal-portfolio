@@ -13,7 +13,7 @@ function Footer() {
             className="footer__social-icon"
             target="_blank"
           >
-            <i class="uil uil-instagram"></i>
+            <i className="uil uil-instagram"></i>
           </a>
 
           <a
@@ -21,7 +21,7 @@ function Footer() {
             className="footer__social-icon"
             target="_blank"
           >
-            <i class="uil uil-github"></i>
+            <i className="uil uil-github"></i>
           </a>
 
           <a
@@ -29,7 +29,7 @@ function Footer() {
             className="footer__social-icon"
             target="_blank"
           >
-            <i class="uil uil-linkedin"></i>
+            <i className="uil uil-linkedin"></i>
           </a>
         </div>
 

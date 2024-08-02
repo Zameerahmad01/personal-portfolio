@@ -7,6 +7,7 @@
     z-index: var(--z-fixed);
     background-color: transparent;
     backdrop-filter: blur(5px);
+    pointer-events: none;
 }
 
 nav {
@@ -22,6 +23,7 @@ nav {
     color: var(--title-color);
     font-weight: var(--font-medium);
     cursor: pointer;
+    pointer-events: all;
 }
 
 .nav__list{
@@ -38,6 +40,7 @@ nav {
     align-items: center;
     flex-direction: column;
     transition: .3s;
+    pointer-events: all;
 }
 
 .nav__icon,

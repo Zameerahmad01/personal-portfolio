@@ -2,9 +2,6 @@
     padding-top: 3rem;
 }
 
-/* .section__subtitle{
-    margin-bottom: 2rem;
-} */
 
 .skills__container{
     grid-template-columns: 1fr;
@@ -13,7 +10,7 @@
 
 .skills__content{
     background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid var(--container-color);
     border-radius: 1.5rem;
     padding: 2rem 3rem ;
 }
@@ -33,20 +30,12 @@
 
 .skills__group{
     display: grid;
-    justify-content: center;
+    /* justify-content: center; */
     row-gap: 3rem;
 }
 
-/* .skills__level{
-    background-color: orange;
-    width: 90%;
-    color: black;
-    padding-left: 1rem;
-} */
-
-
 .skills__data{
-    display: flex;
+    /* display: flex; */
     column-gap: .5rem;
 }
 
@@ -56,8 +45,51 @@
 }
 
 .skills__name{
-    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
 }
+
+.skills__name p{
+    font-weight: var(--font-semi-bold);
+}
+
+.skills__level{
+    display: block;
+    height: .75rem;
+    background-color: rgb(229, 76, 33);
+    width: 90%;
+    border-radius: 1rem;
+    color: black;
+}
+
+.css-level{
+    width: 90%;
+    background-color: rgb(0, 160, 228);
+}
+
+.js-level{
+    width: 70%;
+    background-color: rgb(255, 255, 0);
+}
+
+.react-level{
+    width: 80%;
+    background-color: rgb(97, 218, 251);
+}
+
+.tail-level{
+    width: 80%;
+    background-color: rgb(2, 86, 150);
+}
+
+.git-level{
+    width: 70%;
+    background-color: grey;
+}
+
+
 
   /* For small devices */
   @media screen and (max-width: 576px) {
@@ -66,6 +98,7 @@
   }
   .skills__box{
     grid-template-columns: 1fr;
+    row-gap: 2rem;
 
 }
 }

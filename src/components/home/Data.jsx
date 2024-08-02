@@ -17,7 +17,7 @@ function Data() {
       <h3 className="home__subtitle">Web Developer</h3>
       <p className="home__description">I'm creative designer based in Pakistan,<br /> Build <FlipWords words={words} /> Website with me.</p>
 
-      <Link to="contact" className='button button--flex'>
+      <Link to="contact" className='home__data-button button button--flex'>
         Lets Talk 
         <svg
                   class="button__icon"

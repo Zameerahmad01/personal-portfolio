@@ -1,10 +1,27 @@
 .home {
   overflow: hidden;
+  z-index: 10;
+  /* pointer-events: none; */
+  
+}
+
+.canvas-container{
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: all;
+}
+
+.canvas-container canvas{
+  pointer-events: all;
+  /* height: 100%; */
 }
 
 .home__container {
   row-gap: 2rem;
   position: relative;
+  pointer-events: none;
 }
 
 .home__content {
@@ -12,6 +29,7 @@
   padding-top: 5.5rem;
   column-gap: 2rem;
   align-items: center;
+  /* pointer-events: none; */
 }
 
 .home__data {
@@ -29,6 +47,7 @@ ul {
   align-items: center;
   flex-direction: column;
   row-gap: 0.75rem;
+  pointer-events: all;
 }
 .example-2 .icon-content {
   margin: 0 10px;
@@ -177,9 +196,14 @@ ul {
   }
 }
 
-.home__scroll {
+.home__data-button{
+  pointer-events: all;
+}
+
+.home__scroll-button {
   margin-left: 12.25rem;
   cursor: pointer;
+  pointer-events: all;
 }
 
 .wheel {
@@ -272,7 +296,7 @@ ul {
     max-width: initial;
   }
 
-  .home__scroll {
+  .home__scroll-button {
     margin-left: 8rem;
   }
 
@@ -292,6 +316,11 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
+
+  .canvas-container{
+    display: none;
+  }
+
   .home__content {
     grid-template-columns: 0.5fr 3fr;
     padding-top: 3rem;
